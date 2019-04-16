@@ -1,0 +1,11 @@
+  INPUT
+	Student 1 = (input)Hamed;
+	Grade 1 = (input) 100;
+	Grade 2 = (input) 80;
+  Grade 3 = (input) 100;
+	Grade 4 = (input) 60;
+  AVERAGE = ?;
+	PROCESS
+	(Grade 1 + Grade 2 + Grade 3 + Grade 4) / 4 = AVERAGE;
+	OUTPUT
+	Print AVERAGE;
