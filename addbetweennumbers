@@ -1,0 +1,10 @@
+Input
+N1;
+N2;
+i =N1;
+Sum = 0;
+Process
+For (i=N1 ; i <=N2 ; i +=1);
+Sum += i;
+Output
+Print  Sum;
