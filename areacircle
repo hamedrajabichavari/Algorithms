@@ -1,0 +1,8 @@
+INPUT
+	P=3.14;
+              R;
+              Area=?
+	PROCESS
+              Area = P*(R^2);
+	OUTPUT
+	Print Area;
