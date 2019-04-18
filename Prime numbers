@@ -1,0 +1,17 @@
+              INPUT
+	 i  ;
+              P;   
+	PROCESS
+If (i < 2)
+	print “not prime!”
+	i += 1
+	process again
+If (i = 2)
+	print “prime”
+	i += 1
+If (i > 2)
+For ( i=3 ; i<=100 ; i+=1)
+P = i – 1
+For ( P = i -1 ; P > 1 ; P - = 1)
+If ( i % P ) = 0  then “not Prime”
+else “Prime” 
