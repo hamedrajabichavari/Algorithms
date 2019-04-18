@@ -1,0 +1,13 @@
+ INPUT
+ x;
+ y;
+ z;
+PROCESS
+If x<y then N1=x and N2=y;
+Else N1=y and N2=x;
+If N2<z then p2=N2 and p3=z;
+Else p2=z and p3=y;
+If p2<N1 then M1=p2 and M2=N1;
+Else M1=N1 and M2=p2;
+Output
+Print (M1,M2,P3);
