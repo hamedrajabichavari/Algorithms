@@ -1,0 +1,8 @@
+INPUT
+	H;
+              B;
+              Area=?
+	PROCESS
+              Area = (H*B)/2
+	OUTPUT
+	Print Area;
