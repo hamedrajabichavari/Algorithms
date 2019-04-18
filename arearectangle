@@ -1,0 +1,8 @@
+              INPUT
+	W;
+              L;
+              Area=?
+	PROCESS
+              Area = W*L
+	OUTPUT
+	Print Area;
