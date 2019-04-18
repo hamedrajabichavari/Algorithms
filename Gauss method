@@ -1,0 +1,7 @@
+Input
+N;
+Sum=?
+Process
+Sum = (N * (N+1)) / 2 ;
+Output
+Print  Sum;
