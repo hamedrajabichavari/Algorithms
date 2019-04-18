@@ -1,0 +1,14 @@
+INPUT
+	Student 1 = (input)Hamed;
+	Grade 1 = (input) 100;
+	Grade 2 = (input) 80;
+  Grade 3 = (input) 100;
+	Grade 4 = (input) 60;
+	Average = ?;
+  Status = ?;
+	PROCESS
+	(Grade 1 + Grade 2 + Grade3 + Grade4) / 4 = Average;
+  If ( Average >= 60) then Status = “Approved”;
+  else Status = “Reproved”;
+	OUTPUT
+	Print (Average & Status);
